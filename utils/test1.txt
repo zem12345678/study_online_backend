@@ -1,0 +1,13 @@
+1 获取文件md5
+为检查分块后合并的文件内容与分块前的文件内容是否一致，我们使用md5为文件生成指纹
+
+utils/xmd5.py
+
+import hashlib
+
+def get_file_md5(file):
+    # 将文件指针归零
+    file.seek(0)
+    myhash = hashlib.md5()
+    while True:
+        b = file.read(8096)

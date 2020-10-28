@@ -1,0 +1,85 @@
+# 文件类型
+FILE_TYPE_CMS = '100001'        # cms配置图片
+FILE_TYPE_COURSE = '100002'     # 课程图片
+
+# 用户类型
+USER_TYPE_STUDENT = '101001'    # 学生
+USER_TYPE_TEACHER = '101002'    # 教学管理员
+USER_TYPE_ADMIN = '101003'      # 系统管理员
+
+# 用户状态
+USER_STATUS_NORMAL = '103001'   # 正常
+USER_STATUS_SUSPEND = '103002'  # 暂停
+USER_STATUS_CANCEL = '103003'   # 注销
+
+# 任务状态
+TASK_STATUS_NONE = '105001'     # 未执行
+TASK_STATUS_DONE = '105002'     # 完成
+TASK_STATUS_ERROR = '105003'    # 错误
+
+# 任务类型
+TASK_TYPE_ADD_COURSE = '106001'     # 添加选课
+
+# 课程等级
+CLASS_LEVEL_JUNIOR = '200001'           # 低级
+CLASS_LEVEL_INTERMEDIATE = '200002'     # 中级
+CLASS_LEVEL_SENIOR = '200003'           # 高级
+
+# 学习模式
+STUDY_MODE_FREE = '201001'  # 自由学习
+STUDY_MODE_TASK = '201002'  # 任务式学习
+
+# 课程状态
+COURSE_STATUS_MAKING = '202001'     # 制作中
+COURSE_STATUS_PUBLISH = '202002'    # 已发布
+COURSE_STATUS_OFF = '202003'        # 已下线
+
+# 课程收费规则
+COURSE_CHARGE_FREE = '203001'       # 免费
+COURSE_CHARGE_CHARGE = '203002'     # 收费
+
+# 课程有效性
+COURSE_VALID_FOREVER = '204001'     # 永久有效
+COURSE_VALID_PERIOD = '204002'      # 指定时间段
+
+# 课程状态
+SERIALIZE_STATUS_NONE = '205001'        # 非连载课程
+SERIALIZE_STATUS_SERIALIZE = '205002'   # 连载中
+SERIALIZE_STATUS_END = '205003'         # 已完结
+
+# 媒资文件状态
+MEDIA_FILE_STATUS_NONE = '301001'       # 未上传
+MEDIA_FILE_STATUS_UPLOAD = '301002'     # 上传成功
+MEDIA_FILE_STATUS_FAIL = '301003'       # 上传失败
+
+# 媒资视频处理类型
+VIDEO_PROCESS_TYPE_NONE = '302001'  # 不处理
+VIDEO_PROCESS_TYPE_HLS = '302002'   # 生成HLS
+
+# 媒资视频处理状态
+VIDEO_PROCESS_STATUS_PROCESSING = '303001'  # 处理中
+VIDEO_PROCESS_STATUS_SUCCESS = '303002'     # 处理成功
+VIDEO_PROCESS_STATUS_FAIL = '303003'        # 处理失败
+VIDEO_PROCESS_STATUS_NONE = '303004'        # 无需处理
+
+# 订单状态
+ORDER_STATUS_UNPAID = '401001'      # 未付款
+ORDER_STATUS_SUCCESS = '401002'     # 已完成
+ORDER_STATUS_CANCEL = '401003'      # 已取消
+
+# 支付状态
+PAY_STATUS_UNPAID = '402001'    # 未支付
+PAY_STATUS_SUCCESS = '402002'   # 支付成功
+PAY_STATUS_CLOSE = '402003'     # 已关闭
+PAY_STATUS_FAIL = '402004'      # 支付失败
+
+# 支付类型
+PAY_TYPE_WE_CHAT = '403001'     # 微信
+PAY_TYPE_ALIPAY = '403002'      # 支付宝
+PAY_TYPE_UNION_PAY = '403003'   # 银联
+
+# 选课状态
+CHOOSE_COURSE_NORMAL = '501001'     # 正常
+CHOOSE_COURSE_FINISH = '501002'     # 结束
+CHOOSE_COURSE_CANCEL = '501003'     # 取消
+CHOOSE_COURSE_NONE = '501004'       # 未选课
