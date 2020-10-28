@@ -1,6 +1,5 @@
-#  drf + vue 在线学习的平台 
-#  study_online_backend
-**go-micro重构中**
+#  drf + vue 在线学习平台 
+**使用go-micro重构中**
 
 **当前：**
 
